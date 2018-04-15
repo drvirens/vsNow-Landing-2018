@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432F0E691D232C9C00F63FC7 /* VSSellHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 432F0E681D232C9C00F63FC7 /* VSSellHeaderTableViewCell.m */; };
+		438049431D3464AE00B2A4D0 /* VSRegularItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 438049421D3464AE00B2A4D0 /* VSRegularItemView.m */; };
+		438049481D3467C600B2A4D0 /* VSItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 438049471D3467C600B2A4D0 /* VSItemModel.m */; };
+		4380494B1D359BA600B2A4D0 /* VSCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4380494A1D359BA600B2A4D0 /* VSCollectionViewFlowLayout.m */; };
+		4390D9301D1DC4FB0071B24B /* VSMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4390D92D1D1DC4FB0071B24B /* VSMenuItemView.m */; };
+		4390D9311D1DC4FB0071B24B /* VSProminentCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4390D92F1D1DC4FB0071B24B /* VSProminentCalloutView.m */; };
+		4390D9341D1DE6800071B24B /* VSMenuItemPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4390D9331D1DE6800071B24B /* VSMenuItemPhotoView.m */; };
+		4390D9371D1DF2FB0071B24B /* VSMenuItemCameraPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4390D9361D1DF2FB0071B24B /* VSMenuItemCameraPreviewView.m */; };
+		4390D93A1D1DF6D80071B24B /* VSMenuItemBarcodeScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4390D9391D1DF6D80071B24B /* VSMenuItemBarcodeScanView.m */; };
+		B617E8C21D320FFF0088752C /* VSCategoriesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B617E8C11D320FFF0088752C /* VSCategoriesTableViewCell.m */; };
+		B617E8D01D321A610088752C /* VSArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B617E8C51D321A610088752C /* VSArrowView.m */; };
+		B617E8D11D321A610088752C /* VSCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B617E8C71D321A610088752C /* VSCategoryView.m */; };
+		B617E8D21D321A610088752C /* VSHomeContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B617E8C91D321A610088752C /* VSHomeContainerView.m */; };
+		B617E8D31D321A610088752C /* VSItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B617E8CB1D321A610088752C /* VSItemsViewController.m */; };
+		B617E8D41D321A610088752C /* VSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B617E8CD1D321A610088752C /* VSMenuView.m */; };
+		B617E8D51D321A610088752C /* VSScrollableMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = B617E8CF1D321A610088752C /* VSScrollableMenuView.m */; };
+		B617E8D81D321AA60088752C /* VSDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B617E8D71D321AA60088752C /* VSDataCell.m */; };
+		B61CE0EA1D0A696700338347 /* VSLandingHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B61CE0E91D0A696700338347 /* VSLandingHeaderView.m */; };
+		B61CE0F51D0AAC0F00338347 /* VSBurgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B61CE0F41D0AAC0F00338347 /* VSBurgerButton.m */; };
+		B61CE11B1D0AAE2300338347 /* VSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B61CE11A1D0AAE2300338347 /* VSTextField.m */; };
+		B61CE11E1D0AAE6000338347 /* VSSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B61CE11D1D0AAE6000338347 /* VSSearchTextField.m */; };
+		B61CE1211D0AB8D200338347 /* VSSubHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B61CE1201D0AB8D200338347 /* VSSubHeaderView.m */; };
+		B64157141D17BF0D004BE71B /* VSChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64157031D17BF0D004BE71B /* VSChatsViewController.m */; };
+		B64157171D17BF0D004BE71B /* VSLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B641570A1D17BF0D004BE71B /* VSLandingViewController.m */; };
+		B641571A1D17BF0D004BE71B /* VSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64157111D17BF0D004BE71B /* VSMeViewController.m */; };
+		B641571B1D17BF0D004BE71B /* UIColor+Branding.m in Sources */ = {isa = PBXBuildFile; fileRef = B64157131D17BF0D004BE71B /* UIColor+Branding.m */; };
+		B64157241D17DD1B004BE71B /* VSLandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B64157231D17DD1B004BE71B /* VSLandingView.m */; };
+		B64157271D17DE7E004BE71B /* VSCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B64157261D17DE7E004BE71B /* VSCollectionView.m */; };
+		B641572A1D17E7DF004BE71B /* VSItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B64157291D17E7DF004BE71B /* VSItemCollectionViewCell.m */; };
+		B641572D1D17EB11004BE71B /* VSCategorytemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B641572C1D17EB11004BE71B /* VSCategorytemView.m */; };
+		B64157311D17ED65004BE71B /* VSPresentableItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B64157301D17ED65004BE71B /* VSPresentableItemModel.m */; };
+		B64DAE1A1D3B513D0056515B /* VSDataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = B64DAE191D3B513D0056515B /* VSDataMgr.m */; };
+		B67F2BBF1D3F352C00F779CE /* VSSmallCategorytemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67F2BBC1D3F352C00F779CE /* VSSmallCategorytemView.m */; };
+		B67F2BC01D3F352C00F779CE /* VSSmallItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B67F2BBE1D3F352C00F779CE /* VSSmallItemCollectionViewCell.m */; };
+		B688812A1D3E0E8C00CE548F /* VSBigPagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B68881271D3E0E8C00CE548F /* VSBigPagerCell.m */; };
+		B688812B1D3E0E8C00CE548F /* VSBigPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B68881291D3E0E8C00CE548F /* VSBigPagerView.m */; };
+		B69698611D1BB05900BB3C0A /* VSPresentableCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B69698601D1BB05900BB3C0A /* VSPresentableCategory.m */; };
+		B69731A01D192EB30071F462 /* VSLandingTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = B697319F1D192EB30071F462 /* VSLandingTheme.m */; };
+		B69F3DEC1D18CB0300EBC81C /* VSResourceNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F3DEB1D18CB0300EBC81C /* VSResourceNames.m */; };
+		B69F3DEF1D19129A00EBC81C /* VSLandingUIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B69F3DEE1D19129A00EBC81C /* VSLandingUIConstants.m */; };
+		B6A6ABF81D0C0DAC00DB1B36 /* VSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A6ABF71D0C0DAC00DB1B36 /* VSLabel.m */; };
+		B6A6ABFB1D0CFB0300DB1B36 /* VSLandingSimpleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A6ABFA1D0CFB0300DB1B36 /* VSLandingSimpleHeaderView.m */; };
+		B6A6AC051D0D1A5000DB1B36 /* VSUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A6AC041D0D1A5000DB1B36 /* VSUIUtils.m */; };
+		B6B019111D20DD2B006E7239 /* VSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B019101D20DD2B006E7239 /* VSHomeViewController.m */; };
+		B6B019171D20E530006E7239 /* VSSellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B019161D20E530006E7239 /* VSSellTableViewCell.m */; };
+		B6B42CE61D05702B00236B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B42CE51D05702B00236B0A /* main.m */; };
+		B6B42CE91D05702B00236B0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B42CE81D05702B00236B0A /* AppDelegate.m */; };
+		B6B42CEF1D05702B00236B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B42CED1D05702B00236B0A /* Main.storyboard */; };
+		B6B42CF11D05702B00236B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B42CF01D05702B00236B0A /* Assets.xcassets */; };
+		B6B42CF41D05702B00236B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B42CF21D05702B00236B0A /* LaunchScreen.storyboard */; };
+		B6F65D701D24CA92004C5356 /* VSBrowseHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F65D6F1D24CA92004C5356 /* VSBrowseHeaderTableViewCell.m */; };
+		B6F65D771D251590004C5356 /* VSCategoryWrapperView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F65D761D251590004C5356 /* VSCategoryWrapperView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		432F0E671D232C9C00F63FC7 /* VSSellHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSellHeaderTableViewCell.h; sourceTree = "<group>"; };
+		432F0E681D232C9C00F63FC7 /* VSSellHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSellHeaderTableViewCell.m; sourceTree = "<group>"; };
+		438049411D3464AE00B2A4D0 /* VSRegularItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSRegularItemView.h; sourceTree = "<group>"; };
+		438049421D3464AE00B2A4D0 /* VSRegularItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSRegularItemView.m; sourceTree = "<group>"; };
+		438049461D3467C600B2A4D0 /* VSItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSItemModel.h; sourceTree = "<group>"; };
+		438049471D3467C600B2A4D0 /* VSItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSItemModel.m; sourceTree = "<group>"; };
+		438049491D359BA600B2A4D0 /* VSCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSCollectionViewFlowLayout.h; path = ../VSCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		4380494A1D359BA600B2A4D0 /* VSCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSCollectionViewFlowLayout.m; path = ../VSCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		4390D92C1D1DC4FB0071B24B /* VSMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMenuItemView.h; sourceTree = "<group>"; };
+		4390D92D1D1DC4FB0071B24B /* VSMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMenuItemView.m; sourceTree = "<group>"; };
+		4390D92E1D1DC4FB0071B24B /* VSProminentCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSProminentCalloutView.h; sourceTree = "<group>"; };
+		4390D92F1D1DC4FB0071B24B /* VSProminentCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSProminentCalloutView.m; sourceTree = "<group>"; };
+		4390D9321D1DE6800071B24B /* VSMenuItemPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMenuItemPhotoView.h; sourceTree = "<group>"; };
+		4390D9331D1DE6800071B24B /* VSMenuItemPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMenuItemPhotoView.m; sourceTree = "<group>"; };
+		4390D9351D1DF2FB0071B24B /* VSMenuItemCameraPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMenuItemCameraPreviewView.h; sourceTree = "<group>"; };
+		4390D9361D1DF2FB0071B24B /* VSMenuItemCameraPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMenuItemCameraPreviewView.m; sourceTree = "<group>"; };
+		4390D9381D1DF6D80071B24B /* VSMenuItemBarcodeScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMenuItemBarcodeScanView.h; sourceTree = "<group>"; };
+		4390D9391D1DF6D80071B24B /* VSMenuItemBarcodeScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMenuItemBarcodeScanView.m; sourceTree = "<group>"; };
+		B617E8C01D320FFF0088752C /* VSCategoriesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSCategoriesTableViewCell.h; sourceTree = "<group>"; };
+		B617E8C11D320FFF0088752C /* VSCategoriesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSCategoriesTableViewCell.m; sourceTree = "<group>"; };
+		B617E8C41D321A610088752C /* VSArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSArrowView.h; sourceTree = "<group>"; };
+		B617E8C51D321A610088752C /* VSArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSArrowView.m; sourceTree = "<group>"; };
+		B617E8C61D321A610088752C /* VSCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSCategoryView.h; sourceTree = "<group>"; };
+		B617E8C71D321A610088752C /* VSCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSCategoryView.m; sourceTree = "<group>"; };
+		B617E8C81D321A610088752C /* VSHomeContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSHomeContainerView.h; sourceTree = "<group>"; };
+		B617E8C91D321A610088752C /* VSHomeContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSHomeContainerView.m; sourceTree = "<group>"; };
+		B617E8CA1D321A610088752C /* VSItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSItemsViewController.h; sourceTree = "<group>"; };
+		B617E8CB1D321A610088752C /* VSItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSItemsViewController.m; sourceTree = "<group>"; };
+		B617E8CC1D321A610088752C /* VSMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMenuView.h; sourceTree = "<group>"; };
+		B617E8CD1D321A610088752C /* VSMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMenuView.m; sourceTree = "<group>"; };
+		B617E8CE1D321A610088752C /* VSScrollableMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSScrollableMenuView.h; sourceTree = "<group>"; };
+		B617E8CF1D321A610088752C /* VSScrollableMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSScrollableMenuView.m; sourceTree = "<group>"; };
+		B617E8D61D321AA60088752C /* VSDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSDataCell.h; sourceTree = "<group>"; };
+		B617E8D71D321AA60088752C /* VSDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSDataCell.m; sourceTree = "<group>"; };
+		B61CE0E81D0A696700338347 /* VSLandingHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSLandingHeaderView.h; path = ../VSLandingHeaderView.h; sourceTree = "<group>"; };
+		B61CE0E91D0A696700338347 /* VSLandingHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSLandingHeaderView.m; path = ../VSLandingHeaderView.m; sourceTree = "<group>"; };
+		B61CE0F31D0AAC0F00338347 /* VSBurgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSBurgerButton.h; sourceTree = "<group>"; };
+		B61CE0F41D0AAC0F00338347 /* VSBurgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSBurgerButton.m; sourceTree = "<group>"; };
+		B61CE1191D0AAE2300338347 /* VSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTextField.h; sourceTree = "<group>"; };
+		B61CE11A1D0AAE2300338347 /* VSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTextField.m; sourceTree = "<group>"; };
+		B61CE11C1D0AAE6000338347 /* VSSearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSearchTextField.h; sourceTree = "<group>"; };
+		B61CE11D1D0AAE6000338347 /* VSSearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSearchTextField.m; sourceTree = "<group>"; };
+		B61CE11F1D0AB8D200338347 /* VSSubHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSubHeaderView.h; sourceTree = "<group>"; };
+		B61CE1201D0AB8D200338347 /* VSSubHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSubHeaderView.m; sourceTree = "<group>"; };
+		B64157021D17BF0D004BE71B /* VSChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSChatsViewController.h; sourceTree = "<group>"; };
+		B64157031D17BF0D004BE71B /* VSChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSChatsViewController.m; sourceTree = "<group>"; };
+		B64157091D17BF0D004BE71B /* VSLandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLandingViewController.h; sourceTree = "<group>"; };
+		B641570A1D17BF0D004BE71B /* VSLandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLandingViewController.m; sourceTree = "<group>"; };
+		B64157101D17BF0D004BE71B /* VSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMeViewController.h; sourceTree = "<group>"; };
+		B64157111D17BF0D004BE71B /* VSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMeViewController.m; sourceTree = "<group>"; };
+		B64157121D17BF0D004BE71B /* UIColor+Branding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Branding.h"; sourceTree = "<group>"; };
+		B64157131D17BF0D004BE71B /* UIColor+Branding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Branding.m"; sourceTree = "<group>"; };
+		B64157221D17DD1B004BE71B /* VSLandingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLandingView.h; sourceTree = "<group>"; };
+		B64157231D17DD1B004BE71B /* VSLandingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLandingView.m; sourceTree = "<group>"; };
+		B64157251D17DE7E004BE71B /* VSCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSCollectionView.h; sourceTree = "<group>"; };
+		B64157261D17DE7E004BE71B /* VSCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSCollectionView.m; sourceTree = "<group>"; };
+		B64157281D17E7DF004BE71B /* VSItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSItemCollectionViewCell.h; sourceTree = "<group>"; };
+		B64157291D17E7DF004BE71B /* VSItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSItemCollectionViewCell.m; sourceTree = "<group>"; };
+		B641572B1D17EB11004BE71B /* VSCategorytemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSCategorytemView.h; sourceTree = "<group>"; };
+		B641572C1D17EB11004BE71B /* VSCategorytemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSCategorytemView.m; sourceTree = "<group>"; };
+		B641572F1D17ED65004BE71B /* VSPresentableItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSPresentableItemModel.h; sourceTree = "<group>"; };
+		B64157301D17ED65004BE71B /* VSPresentableItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSPresentableItemModel.m; sourceTree = "<group>"; };
+		B64DAE181D3B513D0056515B /* VSDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSDataMgr.h; sourceTree = "<group>"; };
+		B64DAE191D3B513D0056515B /* VSDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSDataMgr.m; sourceTree = "<group>"; };
+		B67F2BBB1D3F352C00F779CE /* VSSmallCategorytemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSmallCategorytemView.h; sourceTree = "<group>"; };
+		B67F2BBC1D3F352C00F779CE /* VSSmallCategorytemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSmallCategorytemView.m; sourceTree = "<group>"; };
+		B67F2BBD1D3F352C00F779CE /* VSSmallItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSmallItemCollectionViewCell.h; sourceTree = "<group>"; };
+		B67F2BBE1D3F352C00F779CE /* VSSmallItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSmallItemCollectionViewCell.m; sourceTree = "<group>"; };
+		B68881261D3E0E8C00CE548F /* VSBigPagerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSBigPagerCell.h; path = "vsNow-Landing/categories-bar/VSBigPagerCell.h"; sourceTree = SOURCE_ROOT; };
+		B68881271D3E0E8C00CE548F /* VSBigPagerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSBigPagerCell.m; path = "vsNow-Landing/categories-bar/VSBigPagerCell.m"; sourceTree = SOURCE_ROOT; };
+		B68881281D3E0E8C00CE548F /* VSBigPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSBigPagerView.h; path = "vsNow-Landing/categories-bar/VSBigPagerView.h"; sourceTree = SOURCE_ROOT; };
+		B68881291D3E0E8C00CE548F /* VSBigPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSBigPagerView.m; path = "vsNow-Landing/categories-bar/VSBigPagerView.m"; sourceTree = SOURCE_ROOT; };
+		B696985F1D1BB05900BB3C0A /* VSPresentableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSPresentableCategory.h; sourceTree = "<group>"; };
+		B69698601D1BB05900BB3C0A /* VSPresentableCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSPresentableCategory.m; sourceTree = "<group>"; };
+		B697319E1D192EB30071F462 /* VSLandingTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLandingTheme.h; sourceTree = "<group>"; };
+		B697319F1D192EB30071F462 /* VSLandingTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLandingTheme.m; sourceTree = "<group>"; };
+		B69F3DEA1D18CB0300EBC81C /* VSResourceNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSResourceNames.h; sourceTree = "<group>"; };
+		B69F3DEB1D18CB0300EBC81C /* VSResourceNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSResourceNames.m; sourceTree = "<group>"; };
+		B69F3DED1D19129A00EBC81C /* VSLandingUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLandingUIConstants.h; sourceTree = "<group>"; };
+		B69F3DEE1D19129A00EBC81C /* VSLandingUIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLandingUIConstants.m; sourceTree = "<group>"; };
+		B6A6ABF61D0C0DAB00DB1B36 /* VSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLabel.h; sourceTree = "<group>"; };
+		B6A6ABF71D0C0DAC00DB1B36 /* VSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLabel.m; sourceTree = "<group>"; };
+		B6A6ABF91D0CFB0300DB1B36 /* VSLandingSimpleHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSLandingSimpleHeaderView.h; sourceTree = "<group>"; };
+		B6A6ABFA1D0CFB0300DB1B36 /* VSLandingSimpleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSLandingSimpleHeaderView.m; sourceTree = "<group>"; };
+		B6A6AC031D0D1A5000DB1B36 /* VSUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSUIUtils.h; sourceTree = "<group>"; };
+		B6A6AC041D0D1A5000DB1B36 /* VSUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSUIUtils.m; sourceTree = "<group>"; };
+		B6B0190F1D20DD2B006E7239 /* VSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSHomeViewController.h; sourceTree = "<group>"; };
+		B6B019101D20DD2B006E7239 /* VSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSHomeViewController.m; sourceTree = "<group>"; };
+		B6B019151D20E530006E7239 /* VSSellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSSellTableViewCell.h; sourceTree = "<group>"; };
+		B6B019161D20E530006E7239 /* VSSellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSSellTableViewCell.m; sourceTree = "<group>"; };
+		B6B42CE11D05702B00236B0A /* vsNow-Landing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vsNow-Landing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B42CE51D05702B00236B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6B42CE71D05702B00236B0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6B42CE81D05702B00236B0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6B42CEE1D05702B00236B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6B42CF01D05702B00236B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6B42CF31D05702B00236B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6B42CF51D05702B00236B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F65D6E1D24CA92004C5356 /* VSBrowseHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSBrowseHeaderTableViewCell.h; sourceTree = "<group>"; };
+		B6F65D6F1D24CA92004C5356 /* VSBrowseHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSBrowseHeaderTableViewCell.m; sourceTree = "<group>"; };
+		B6F65D751D251590004C5356 /* VSCategoryWrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSCategoryWrapperView.h; sourceTree = "<group>"; };
+		B6F65D761D251590004C5356 /* VSCategoryWrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSCategoryWrapperView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6B42CDE1D05702B00236B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438049451D3467B800B2A4D0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				438049461D3467C600B2A4D0 /* VSItemModel.h */,
+				438049471D3467C600B2A4D0 /* VSItemModel.m */,
+				B64DAE181D3B513D0056515B /* VSDataMgr.h */,
+				B64DAE191D3B513D0056515B /* VSDataMgr.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4390D92B1D1DC4FB0071B24B /* camera-preview */ = {
+			isa = PBXGroup;
+			children = (
+				4390D9381D1DF6D80071B24B /* VSMenuItemBarcodeScanView.h */,
+				4390D9391D1DF6D80071B24B /* VSMenuItemBarcodeScanView.m */,
+				4390D9351D1DF2FB0071B24B /* VSMenuItemCameraPreviewView.h */,
+				4390D9361D1DF2FB0071B24B /* VSMenuItemCameraPreviewView.m */,
+				4390D9321D1DE6800071B24B /* VSMenuItemPhotoView.h */,
+				4390D9331D1DE6800071B24B /* VSMenuItemPhotoView.m */,
+				4390D92C1D1DC4FB0071B24B /* VSMenuItemView.h */,
+				4390D92D1D1DC4FB0071B24B /* VSMenuItemView.m */,
+				4390D92E1D1DC4FB0071B24B /* VSProminentCalloutView.h */,
+				4390D92F1D1DC4FB0071B24B /* VSProminentCalloutView.m */,
+			);
+			path = "camera-preview";
+			sourceTree = "<group>";
+		};
+		B617E8C31D321A610088752C /* categories-bar */ = {
+			isa = PBXGroup;
+			children = (
+				438049491D359BA600B2A4D0 /* VSCollectionViewFlowLayout.h */,
+				4380494A1D359BA600B2A4D0 /* VSCollectionViewFlowLayout.m */,
+				B67F2BBB1D3F352C00F779CE /* VSSmallCategorytemView.h */,
+				B67F2BBC1D3F352C00F779CE /* VSSmallCategorytemView.m */,
+				B67F2BBD1D3F352C00F779CE /* VSSmallItemCollectionViewCell.h */,
+				B67F2BBE1D3F352C00F779CE /* VSSmallItemCollectionViewCell.m */,
+				B68881261D3E0E8C00CE548F /* VSBigPagerCell.h */,
+				B68881271D3E0E8C00CE548F /* VSBigPagerCell.m */,
+				B68881281D3E0E8C00CE548F /* VSBigPagerView.h */,
+				B68881291D3E0E8C00CE548F /* VSBigPagerView.m */,
+				438049451D3467B800B2A4D0 /* model */,
+				B617E8D61D321AA60088752C /* VSDataCell.h */,
+				B617E8D71D321AA60088752C /* VSDataCell.m */,
+				438049411D3464AE00B2A4D0 /* VSRegularItemView.h */,
+				438049421D3464AE00B2A4D0 /* VSRegularItemView.m */,
+				B617E8C61D321A610088752C /* VSCategoryView.h */,
+				B617E8C71D321A610088752C /* VSCategoryView.m */,
+				B617E8C41D321A610088752C /* VSArrowView.h */,
+				B617E8C51D321A610088752C /* VSArrowView.m */,
+				B617E8C81D321A610088752C /* VSHomeContainerView.h */,
+				B617E8C91D321A610088752C /* VSHomeContainerView.m */,
+				B617E8CA1D321A610088752C /* VSItemsViewController.h */,
+				B617E8CB1D321A610088752C /* VSItemsViewController.m */,
+				B617E8CC1D321A610088752C /* VSMenuView.h */,
+				B617E8CD1D321A610088752C /* VSMenuView.m */,
+				B617E8CE1D321A610088752C /* VSScrollableMenuView.h */,
+				B617E8CF1D321A610088752C /* VSScrollableMenuView.m */,
+			);
+			path = "categories-bar";
+			sourceTree = "<group>";
+		};
+		B64157011D17BF0D004BE71B /* tab-chat */ = {
+			isa = PBXGroup;
+			children = (
+				B64157041D17BF0D004BE71B /* tab-landing */,
+				B64157021D17BF0D004BE71B /* VSChatsViewController.h */,
+				B64157031D17BF0D004BE71B /* VSChatsViewController.m */,
+			);
+			path = "tab-chat";
+			sourceTree = "<group>";
+		};
+		B64157041D17BF0D004BE71B /* tab-landing */ = {
+			isa = PBXGroup;
+			children = (
+				B69731A11D1A777D0071F462 /* category-item */,
+				B64157091D17BF0D004BE71B /* VSLandingViewController.h */,
+				B641570A1D17BF0D004BE71B /* VSLandingViewController.m */,
+				B64157251D17DE7E004BE71B /* VSCollectionView.h */,
+				B64157261D17DE7E004BE71B /* VSCollectionView.m */,
+				B64157221D17DD1B004BE71B /* VSLandingView.h */,
+				B64157231D17DD1B004BE71B /* VSLandingView.m */,
+				B69F3DED1D19129A00EBC81C /* VSLandingUIConstants.h */,
+				B69F3DEE1D19129A00EBC81C /* VSLandingUIConstants.m */,
+				B697319E1D192EB30071F462 /* VSLandingTheme.h */,
+				B697319F1D192EB30071F462 /* VSLandingTheme.m */,
+				B64157281D17E7DF004BE71B /* VSItemCollectionViewCell.h */,
+				B64157291D17E7DF004BE71B /* VSItemCollectionViewCell.m */,
+				B6B019151D20E530006E7239 /* VSSellTableViewCell.h */,
+				B6B019161D20E530006E7239 /* VSSellTableViewCell.m */,
+				432F0E671D232C9C00F63FC7 /* VSSellHeaderTableViewCell.h */,
+				432F0E681D232C9C00F63FC7 /* VSSellHeaderTableViewCell.m */,
+				B6F65D6E1D24CA92004C5356 /* VSBrowseHeaderTableViewCell.h */,
+				B6F65D6F1D24CA92004C5356 /* VSBrowseHeaderTableViewCell.m */,
+				B61CE0E81D0A696700338347 /* VSLandingHeaderView.h */,
+				B61CE0E91D0A696700338347 /* VSLandingHeaderView.m */,
+				B617E8C01D320FFF0088752C /* VSCategoriesTableViewCell.h */,
+				B617E8C11D320FFF0088752C /* VSCategoriesTableViewCell.m */,
+			);
+			name = "tab-landing";
+			path = "../tab-landing";
+			sourceTree = "<group>";
+		};
+		B641570F1D17BF0D004BE71B /* tab-me */ = {
+			isa = PBXGroup;
+			children = (
+				B64157101D17BF0D004BE71B /* VSMeViewController.h */,
+				B64157111D17BF0D004BE71B /* VSMeViewController.m */,
+			);
+			path = "tab-me";
+			sourceTree = "<group>";
+		};
+		B641572E1D17ECDE004BE71B /* data-model */ = {
+			isa = PBXGroup;
+			children = (
+				B641572F1D17ED65004BE71B /* VSPresentableItemModel.h */,
+				B64157301D17ED65004BE71B /* VSPresentableItemModel.m */,
+				B696985F1D1BB05900BB3C0A /* VSPresentableCategory.h */,
+				B69698601D1BB05900BB3C0A /* VSPresentableCategory.m */,
+			);
+			name = "data-model";
+			path = "vsNow-Landing/data-model";
+			sourceTree = "<group>";
+		};
+		B69731A11D1A777D0071F462 /* category-item */ = {
+			isa = PBXGroup;
+			children = (
+				B641572B1D17EB11004BE71B /* VSCategorytemView.h */,
+				B641572C1D17EB11004BE71B /* VSCategorytemView.m */,
+			);
+			name = "category-item";
+			sourceTree = "<group>";
+		};
+		B6B42CD81D05702B00236B0A = {
+			isa = PBXGroup;
+			children = (
+				B641572E1D17ECDE004BE71B /* data-model */,
+				B6B42CE31D05702B00236B0A /* vsNow-Landing */,
+				B6B42CE21D05702B00236B0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B42CE21D05702B00236B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B42CE11D05702B00236B0A /* vsNow-Landing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6B42CE31D05702B00236B0A /* vsNow-Landing */ = {
+			isa = PBXGroup;
+			children = (
+				B617E8C31D321A610088752C /* categories-bar */,
+				B6F65D711D251298004C5356 /* category */,
+				4390D92B1D1DC4FB0071B24B /* camera-preview */,
+				B64157011D17BF0D004BE71B /* tab-chat */,
+				B641570F1D17BF0D004BE71B /* tab-me */,
+				B64157121D17BF0D004BE71B /* UIColor+Branding.h */,
+				B64157131D17BF0D004BE71B /* UIColor+Branding.m */,
+				B6B42CE71D05702B00236B0A /* AppDelegate.h */,
+				B6B42CE81D05702B00236B0A /* AppDelegate.m */,
+				B6B42CED1D05702B00236B0A /* Main.storyboard */,
+				B6B42CF01D05702B00236B0A /* Assets.xcassets */,
+				B6B42CF21D05702B00236B0A /* LaunchScreen.storyboard */,
+				B6B42CF51D05702B00236B0A /* Info.plist */,
+				B6B42CE41D05702B00236B0A /* Supporting Files */,
+				B6A6ABF91D0CFB0300DB1B36 /* VSLandingSimpleHeaderView.h */,
+				B6A6ABFA1D0CFB0300DB1B36 /* VSLandingSimpleHeaderView.m */,
+				B61CE0F31D0AAC0F00338347 /* VSBurgerButton.h */,
+				B61CE0F41D0AAC0F00338347 /* VSBurgerButton.m */,
+				B61CE1191D0AAE2300338347 /* VSTextField.h */,
+				B61CE11A1D0AAE2300338347 /* VSTextField.m */,
+				B61CE11C1D0AAE6000338347 /* VSSearchTextField.h */,
+				B61CE11D1D0AAE6000338347 /* VSSearchTextField.m */,
+				B61CE11F1D0AB8D200338347 /* VSSubHeaderView.h */,
+				B61CE1201D0AB8D200338347 /* VSSubHeaderView.m */,
+				B6A6ABF61D0C0DAB00DB1B36 /* VSLabel.h */,
+				B6A6ABF71D0C0DAC00DB1B36 /* VSLabel.m */,
+				B6A6AC031D0D1A5000DB1B36 /* VSUIUtils.h */,
+				B6A6AC041D0D1A5000DB1B36 /* VSUIUtils.m */,
+				B69F3DEA1D18CB0300EBC81C /* VSResourceNames.h */,
+				B69F3DEB1D18CB0300EBC81C /* VSResourceNames.m */,
+				B6B0190F1D20DD2B006E7239 /* VSHomeViewController.h */,
+				B6B019101D20DD2B006E7239 /* VSHomeViewController.m */,
+			);
+			path = "vsNow-Landing";
+			sourceTree = "<group>";
+		};
+		B6B42CE41D05702B00236B0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B42CE51D05702B00236B0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6F65D711D251298004C5356 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				B6F65D751D251590004C5356 /* VSCategoryWrapperView.h */,
+				B6F65D761D251590004C5356 /* VSCategoryWrapperView.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6B42CE01D05702B00236B0A /* vsNow-Landing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B42CF81D05702B00236B0A /* Build configuration list for PBXNativeTarget "vsNow-Landing" */;
+			buildPhases = (
+				B6B42CDD1D05702B00236B0A /* Sources */,
+				B6B42CDE1D05702B00236B0A /* Frameworks */,
+				B6B42CDF1D05702B00236B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vsNow-Landing";
+			productName = "vsNow-Landing";
+			productReference = B6B42CE11D05702B00236B0A /* vsNow-Landing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B42CD91D05702B00236B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Virendra Shakya";
+				TargetAttributes = {
+					B6B42CE01D05702B00236B0A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F38H382JLK;
+						DevelopmentTeamName = "SKULLY HELMETS INC.";
+					};
+				};
+			};
+			buildConfigurationList = B6B42CDC1D05702B00236B0A /* Build configuration list for PBXProject "vsNow-Landing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6B42CD81D05702B00236B0A;
+			productRefGroup = B6B42CE21D05702B00236B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6B42CE01D05702B00236B0A /* vsNow-Landing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6B42CDF1D05702B00236B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B42CF41D05702B00236B0A /* LaunchScreen.storyboard in Resources */,
+				B6B42CF11D05702B00236B0A /* Assets.xcassets in Resources */,
+				B6B42CEF1D05702B00236B0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6B42CDD1D05702B00236B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B019171D20E530006E7239 /* VSSellTableViewCell.m in Sources */,
+				B641572A1D17E7DF004BE71B /* VSItemCollectionViewCell.m in Sources */,
+				B617E8D41D321A610088752C /* VSMenuView.m in Sources */,
+				B6B019111D20DD2B006E7239 /* VSHomeViewController.m in Sources */,
+				B67F2BBF1D3F352C00F779CE /* VSSmallCategorytemView.m in Sources */,
+				B617E8D81D321AA60088752C /* VSDataCell.m in Sources */,
+				B69698611D1BB05900BB3C0A /* VSPresentableCategory.m in Sources */,
+				4390D9301D1DC4FB0071B24B /* VSMenuItemView.m in Sources */,
+				B64157311D17ED65004BE71B /* VSPresentableItemModel.m in Sources */,
+				B64DAE1A1D3B513D0056515B /* VSDataMgr.m in Sources */,
+				B69731A01D192EB30071F462 /* VSLandingTheme.m in Sources */,
+				B617E8D01D321A610088752C /* VSArrowView.m in Sources */,
+				B61CE11E1D0AAE6000338347 /* VSSearchTextField.m in Sources */,
+				B64157171D17BF0D004BE71B /* VSLandingViewController.m in Sources */,
+				4390D93A1D1DF6D80071B24B /* VSMenuItemBarcodeScanView.m in Sources */,
+				B617E8D31D321A610088752C /* VSItemsViewController.m in Sources */,
+				B69F3DEF1D19129A00EBC81C /* VSLandingUIConstants.m in Sources */,
+				B6F65D771D251590004C5356 /* VSCategoryWrapperView.m in Sources */,
+				B6A6AC051D0D1A5000DB1B36 /* VSUIUtils.m in Sources */,
+				B6A6ABF81D0C0DAC00DB1B36 /* VSLabel.m in Sources */,
+				4390D9341D1DE6800071B24B /* VSMenuItemPhotoView.m in Sources */,
+				B688812B1D3E0E8C00CE548F /* VSBigPagerView.m in Sources */,
+				B64157241D17DD1B004BE71B /* VSLandingView.m in Sources */,
+				B64157141D17BF0D004BE71B /* VSChatsViewController.m in Sources */,
+				B6B42CE91D05702B00236B0A /* AppDelegate.m in Sources */,
+				B6F65D701D24CA92004C5356 /* VSBrowseHeaderTableViewCell.m in Sources */,
+				432F0E691D232C9C00F63FC7 /* VSSellHeaderTableViewCell.m in Sources */,
+				4380494B1D359BA600B2A4D0 /* VSCollectionViewFlowLayout.m in Sources */,
+				B6A6ABFB1D0CFB0300DB1B36 /* VSLandingSimpleHeaderView.m in Sources */,
+				4390D9311D1DC4FB0071B24B /* VSProminentCalloutView.m in Sources */,
+				B617E8C21D320FFF0088752C /* VSCategoriesTableViewCell.m in Sources */,
+				B617E8D51D321A610088752C /* VSScrollableMenuView.m in Sources */,
+				438049481D3467C600B2A4D0 /* VSItemModel.m in Sources */,
+				B61CE1211D0AB8D200338347 /* VSSubHeaderView.m in Sources */,
+				438049431D3464AE00B2A4D0 /* VSRegularItemView.m in Sources */,
+				B688812A1D3E0E8C00CE548F /* VSBigPagerCell.m in Sources */,
+				B641571A1D17BF0D004BE71B /* VSMeViewController.m in Sources */,
+				B67F2BC01D3F352C00F779CE /* VSSmallItemCollectionViewCell.m in Sources */,
+				B64157271D17DE7E004BE71B /* VSCollectionView.m in Sources */,
+				B69F3DEC1D18CB0300EBC81C /* VSResourceNames.m in Sources */,
+				B617E8D11D321A610088752C /* VSCategoryView.m in Sources */,
+				B641571B1D17BF0D004BE71B /* UIColor+Branding.m in Sources */,
+				B617E8D21D321A610088752C /* VSHomeContainerView.m in Sources */,
+				B61CE0F51D0AAC0F00338347 /* VSBurgerButton.m in Sources */,
+				B61CE0EA1D0A696700338347 /* VSLandingHeaderView.m in Sources */,
+				4390D9371D1DF2FB0071B24B /* VSMenuItemCameraPreviewView.m in Sources */,
+				B61CE11B1D0AAE2300338347 /* VSTextField.m in Sources */,
+				B641572D1D17EB11004BE71B /* VSCategorytemView.m in Sources */,
+				B6B42CE61D05702B00236B0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6B42CED1D05702B00236B0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B42CEE1D05702B00236B0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6B42CF21D05702B00236B0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6B42CF31D05702B00236B0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6B42CF61D05702B00236B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6B42CF71D05702B00236B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6B42CF91D05702B00236B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F38H382JLK;
+				INFOPLIST_FILE = "vsNow-Landing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.4cats.vsNow-Landing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6B42CFA1D05702B00236B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F38H382JLK;
+				INFOPLIST_FILE = "vsNow-Landing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.4cats.vsNow-Landing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6B42CDC1D05702B00236B0A /* Build configuration list for PBXProject "vsNow-Landing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B42CF61D05702B00236B0A /* Debug */,
+				B6B42CF71D05702B00236B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B42CF81D05702B00236B0A /* Build configuration list for PBXNativeTarget "vsNow-Landing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6B42CF91D05702B00236B0A /* Debug */,
+				B6B42CFA1D05702B00236B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B42CD91D05702B00236B0A /* Project object */;
+}
